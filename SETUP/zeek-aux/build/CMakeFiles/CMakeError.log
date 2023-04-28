@@ -1,0 +1,309 @@
+Determining if the function pcap_get_pfring_id exists failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4Ezeri
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4ac4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4ac4.dir/build.make CMakeFiles/cmTC_e4ac4.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4Ezeri'
+Building C object CMakeFiles/cmTC_e4ac4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id -o CMakeFiles/cmTC_e4ac4.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4Ezeri/CheckFunctionExists.c
+Linking C executable cmTC_e4ac4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4ac4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id CMakeFiles/cmTC_e4ac4.dir/CheckFunctionExists.c.o -o cmTC_e4ac4  /usr/lib/x86_64-linux-gnu/libpcap.so 
+/usr/bin/ld: CMakeFiles/cmTC_e4ac4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pcap_get_pfring_id'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e4ac4.dir/build.make:100: cmTC_e4ac4] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4Ezeri'
+gmake: *** [Makefile:127: cmTC_e4ac4/fast] Error 2
+
+
+
+Determining if files sys/ethernet.h exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-btNLw1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6184d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6184d.dir/build.make CMakeFiles/cmTC_6184d.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-btNLw1'
+Building C object CMakeFiles/cmTC_6184d.dir/HAVE_SYS_ETHERNET_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_6184d.dir/HAVE_SYS_ETHERNET_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-btNLw1/HAVE_SYS_ETHERNET_H.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-btNLw1/HAVE_SYS_ETHERNET_H.c:2:10: fatal error: sys/ethernet.h: No such file or directory
+    2 | #include <sys/ethernet.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6184d.dir/build.make:78: CMakeFiles/cmTC_6184d.dir/HAVE_SYS_ETHERNET_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-btNLw1'
+gmake: *** [Makefile:127: cmTC_6184d/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/ethernet.h>
+
+
+int main(void){return 0;}
+
+Determining if files net/ethertypes.h exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-W0l8N4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_49a1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_49a1f.dir/build.make CMakeFiles/cmTC_49a1f.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-W0l8N4'
+Building C object CMakeFiles/cmTC_49a1f.dir/HAVE_NET_ETHERTYPES_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_49a1f.dir/HAVE_NET_ETHERTYPES_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-W0l8N4/HAVE_NET_ETHERTYPES_H.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-W0l8N4/HAVE_NET_ETHERTYPES_H.c:2:10: fatal error: net/ethertypes.h: No such file or directory
+    2 | #include <net/ethertypes.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_49a1f.dir/build.make:78: CMakeFiles/cmTC_49a1f.dir/HAVE_NET_ETHERTYPES_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-W0l8N4'
+gmake: *** [Makefile:127: cmTC_49a1f/fast] Error 2
+
+
+Source:
+/* */
+#include <net/ethertypes.h>
+
+
+int main(void){return 0;}
+
+Determining if files os-proto.h exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-jKQixB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02c14/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02c14.dir/build.make CMakeFiles/cmTC_02c14.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-jKQixB'
+Building C object CMakeFiles/cmTC_02c14.dir/HAVE_OS_PROTO_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_02c14.dir/HAVE_OS_PROTO_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-jKQixB/HAVE_OS_PROTO_H.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-jKQixB/HAVE_OS_PROTO_H.c:2:10: fatal error: os-proto.h: No such file or directory
+    2 | #include <os-proto.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_02c14.dir/build.make:78: CMakeFiles/cmTC_02c14.dir/HAVE_OS_PROTO_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-jKQixB'
+gmake: *** [Makefile:127: cmTC_02c14/fast] Error 2
+
+
+Source:
+/* */
+#include <os-proto.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_READLINE_HISTORY_ENTRIES failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EJrFXo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3890e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3890e.dir/build.make CMakeFiles/cmTC_3890e.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EJrFXo'
+Building C object CMakeFiles/cmTC_3890e.dir/src.c.o
+/usr/bin/cc -DHAVE_READLINE_HISTORY_ENTRIES  -Wall -Wno-unused  -o CMakeFiles/cmTC_3890e.dir/src.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EJrFXo/src.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EJrFXo/src.c:3:10: fatal error: readline/readline.h: No such file or directory
+    3 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_3890e.dir/build.make:78: CMakeFiles/cmTC_3890e.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EJrFXo'
+gmake: *** [Makefile:127: cmTC_3890e/fast] Error 2
+
+
+Source file was:
+
+#include <stdio.h>
+#include <readline/readline.h>
+
+int main()
+{
+  (void)sizeof(((HISTORY_STATE *)0)->entries);
+  return 0;
+}
+
+
+Determining if files stdio.h;readline/readline.h exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-769qHf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47fb8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47fb8.dir/build.make CMakeFiles/cmTC_47fb8.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-769qHf'
+Building C object CMakeFiles/cmTC_47fb8.dir/HAVE_READLINE_READLINE_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_47fb8.dir/HAVE_READLINE_READLINE_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-769qHf/HAVE_READLINE_READLINE_H.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-769qHf/HAVE_READLINE_READLINE_H.c:3:10: fatal error: readline/readline.h: No such file or directory
+    3 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_47fb8.dir/build.make:78: CMakeFiles/cmTC_47fb8.dir/HAVE_READLINE_READLINE_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-769qHf'
+gmake: *** [Makefile:127: cmTC_47fb8/fast] Error 2
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <readline/readline.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;readline/history.h exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-b3OZII
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3ca0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3ca0.dir/build.make CMakeFiles/cmTC_b3ca0.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-b3OZII'
+Building C object CMakeFiles/cmTC_b3ca0.dir/HAVE_READLINE_HISTORY_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_b3ca0.dir/HAVE_READLINE_HISTORY_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-b3OZII/HAVE_READLINE_HISTORY_H.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-b3OZII/HAVE_READLINE_HISTORY_H.c:3:10: fatal error: readline/history.h: No such file or directory
+    3 | #include <readline/history.h>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b3ca0.dir/build.make:78: CMakeFiles/cmTC_b3ca0.dir/HAVE_READLINE_HISTORY_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-b3OZII'
+gmake: *** [Makefile:127: cmTC_b3ca0/fast] Error 2
+
+
+Source:
+/* */
+#include <stdio.h>
+#include <readline/history.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test SIN_LEN failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d9b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d9b2.dir/build.make CMakeFiles/cmTC_6d9b2.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D'
+Building C object CMakeFiles/cmTC_6d9b2.dir/src.c.o
+/usr/bin/cc -DSIN_LEN  -Wall -Wno-unused  -o CMakeFiles/cmTC_6d9b2.dir/src.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D/src.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D/src.c: In function ‘main’:
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D/src.c:6:41: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+    6 |   (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+      |                                         ^~
+gmake[1]: *** [CMakeFiles/cmTC_6d9b2.dir/build.make:78: CMakeFiles/cmTC_6d9b2.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-icVc2D'
+gmake: *** [Makefile:127: cmTC_6d9b2/fast] Error 2
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+  return 0;
+}
+
+
+Determining if the IPPROTO_IPV4 exist failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29be1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29be1.dir/build.make CMakeFiles/cmTC_29be1.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3'
+Building C object CMakeFiles/cmTC_29be1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_29be1.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3/CheckSymbolExists.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3/CheckSymbolExists.c: In function ‘main’:
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3/CheckSymbolExists.c:8:19: error: ‘IPPROTO_IPV4’ undeclared (first use in this function); did you mean ‘IPPROTO_IPV6’?
+    8 |   return ((int*)(&IPPROTO_IPV4))[argc];
+      |                   ^~~~~~~~~~~~
+      |                   IPPROTO_IPV6
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_29be1.dir/build.make:78: CMakeFiles/cmTC_29be1.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-2UDuW3'
+gmake: *** [Makefile:127: cmTC_29be1/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_IPV4
+  return ((int*)(&IPPROTO_IPV4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test DO_SOCK_DECL failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46554/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46554.dir/build.make CMakeFiles/cmTC_46554.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO'
+Building C object CMakeFiles/cmTC_46554.dir/src.c.o
+/usr/bin/cc -DDO_SOCK_DECL  -Wall -Wno-unused  -o CMakeFiles/cmTC_46554.dir/src.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO/src.c
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO/src.c:5:16: error: conflicting types for ‘connect’; have ‘int(int,  const struct sockaddr *, int)’
+    5 |     extern int connect(int, const struct sockaddr *, int);
+      |                ^~~~~~~
+In file included from /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO/src.c:3:
+/usr/include/x86_64-linux-gnu/sys/socket.h:126:12: note: previous declaration of ‘connect’ with type ‘int(int,  const struct sockaddr *, socklen_t)’ {aka ‘int(int,  const struct sockaddr *, unsigned int)’}
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+      |            ^~~~~~~
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO/src.c:6:16: error: conflicting types for ‘send’; have ‘int(int,  const void *, int,  int)’
+    6 |     extern int send(int, const void *, int, int);
+      |                ^~~~
+/usr/include/x86_64-linux-gnu/sys/socket.h:138:16: note: previous declaration of ‘send’ with type ‘ssize_t(int,  const void *, size_t,  int)’ {aka ‘long int(int,  const void *, long unsigned int,  int)’}
+  138 | extern ssize_t send (int __fd, const void *__buf, size_t __n, int __flags);
+      |                ^~~~
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO/src.c:7:16: error: conflicting types for ‘recvfrom’; have ‘int(int,  void *, int,  int,  struct sockaddr *, int *)’
+    7 |     extern int recvfrom(int, void *, int, int, struct sockaddr *, int *);
+      |                ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/socket.h:163:16: note: previous declaration of ‘recvfrom’ with type ‘ssize_t(int,  void * restrict,  size_t,  int,  struct sockaddr * restrict,  socklen_t * restrict)’ {aka ‘long int(int,  void * restrict,  long unsigned int,  int,  struct sockaddr * restrict,  unsigned int * restrict)’}
+  163 | extern ssize_t recvfrom (int __fd, void *__restrict __buf, size_t __n,
+      |                ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_46554.dir/build.make:78: CMakeFiles/cmTC_46554.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uU3RWO'
+gmake: *** [Makefile:127: cmTC_46554/fast] Error 2
+
+
+Source file was:
+
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    extern int socket(int, int, int);
+    extern int connect(int, const struct sockaddr *, int);
+    extern int send(int, const void *, int, int);
+    extern int recvfrom(int, void *, int, int, struct sockaddr *, int *);
+    int main() { return 0; }
+
+
+Performing C++ SOURCE FILE Test SYSLOG_INT failed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9db37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9db37.dir/build.make CMakeFiles/cmTC_9db37.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf'
+Building CXX object CMakeFiles/cmTC_9db37.dir/src.cxx.o
+/usr/bin/c++ -DSYSLOG_INT  -Wall -Wno-unused -Wno-register -Werror=vla  -o CMakeFiles/cmTC_9db37.dir/src.cxx.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf/src.cxx
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf/src.cxx:5:13: error: conflicting declaration of C function ‘int openlog(const char*, int, int)’
+    5 |         int openlog(const char* ident, int logopt, int facility);
+      |             ^~~~~~~
+In file included from /usr/include/syslog.h:1,
+                 from /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf/src.cxx:3:
+/usr/include/x86_64-linux-gnu/sys/syslog.h:181:13: note: previous declaration ‘void openlog(const char*, int, int)’
+  181 | extern void openlog (const char *__ident, int __option, int __facility);
+      |             ^~~~~~~
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf/src.cxx:6:13: error: conflicting declaration of C function ‘int syslog(int, const char*, ...)’
+    6 |         int syslog(int priority, const char* message_fmt, ...);
+      |             ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/syslog.h:190:13: note: previous declaration ‘void syslog(int, const char*, ...)’
+  190 | extern void syslog (int __pri, const char *__fmt, ...)
+      |             ^~~~~~
+/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf/src.cxx:7:13: error: conflicting declaration of C function ‘int closelog()’
+    7 |         int closelog();
+      |             ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/syslog.h:175:13: note: previous declaration ‘void closelog()’
+  175 | extern void closelog (void);
+      |             ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_9db37.dir/build.make:78: CMakeFiles/cmTC_9db37.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-wWz2Zf'
+gmake: *** [Makefile:127: cmTC_9db37/fast] Error 2
+
+
+Source file was:
+
+    #include <stdlib.h>
+    #include <syslog.h>
+    extern "C" {
+        int openlog(const char* ident, int logopt, int facility);
+        int syslog(int priority, const char* message_fmt, ...);
+        int closelog();
+    }
+    int main() { return 0; }
+
+

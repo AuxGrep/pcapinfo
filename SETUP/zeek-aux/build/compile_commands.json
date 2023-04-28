@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/auxgrep/Desktop/network_malware/zeek-aux/build/adtrace",
+  "command": "/usr/bin/cc  -I/home/auxgrep/Desktop/network_malware/zeek-aux/build  -Wall -Wno-unused -O2 -g -DNDEBUG -o CMakeFiles/adtrace.dir/adtrace.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/adtrace/adtrace.c",
+  "file": "/home/auxgrep/Desktop/network_malware/zeek-aux/adtrace/adtrace.c"
+},
+{
+  "directory": "/home/auxgrep/Desktop/network_malware/zeek-aux/build/zeek-cut",
+  "command": "/usr/bin/cc  -I/home/auxgrep/Desktop/network_malware/zeek-aux/build  -Wall -Wno-unused -O2 -g -DNDEBUG -o CMakeFiles/zeek-cut.dir/zeek-cut.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/zeek-cut/zeek-cut.c",
+  "file": "/home/auxgrep/Desktop/network_malware/zeek-aux/zeek-cut/zeek-cut.c"
+},
+{
+  "directory": "/home/auxgrep/Desktop/network_malware/zeek-aux/build/rst",
+  "command": "/usr/bin/cc  -I/home/auxgrep/Desktop/network_malware/zeek-aux/build  -Wall -Wno-unused -O2 -g -DNDEBUG -o CMakeFiles/rst.dir/rst.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/rst/rst.c",
+  "file": "/home/auxgrep/Desktop/network_malware/zeek-aux/rst/rst.c"
+}
+]

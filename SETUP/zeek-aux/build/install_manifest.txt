@@ -1,0 +1,4 @@
+/usr/local/zeek/bin/zeek-cut
+/usr/local/zeek/bin/adtrace
+/usr/local/zeek/share/man/man1/zeek-cut.1
+/usr/local/zeek/bin/rst

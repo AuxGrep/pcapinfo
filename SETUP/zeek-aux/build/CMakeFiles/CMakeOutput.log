@@ -1,0 +1,968 @@
+The system is: Linux - 6.1.0-kali7-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-75cAKK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d95ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d95ac.dir/build.make CMakeFiles/cmTC_d95ac.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-75cAKK'
+Building C object CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d95ac.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccEeIBkt.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/'
+ as -v --64 -o CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o /tmp/ccEeIBkt.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_d95ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95ac.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -o cmTC_d95ac 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d95ac' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d95ac.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu6caZW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d95ac /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d95ac' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d95ac.'
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-75cAKK'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-75cAKK]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d95ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d95ac.dir/build.make CMakeFiles/cmTC_d95ac.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-75cAKK']
+  ignore line: [Building C object CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d95ac.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccEeIBkt.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o /tmp/ccEeIBkt.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_d95ac]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95ac.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -o cmTC_d95ac ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d95ac' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d95ac.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu6caZW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d95ac /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccu6caZW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d95ac] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_d95ac.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-KLnQJ4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d34a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d34a.dir/build.make CMakeFiles/cmTC_2d34a.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-KLnQJ4'
+Building CXX object CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d34a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccCowUMt.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/'
+ as -v --64 -o CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCowUMt.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_2d34a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d34a.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d34a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d34a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d34a.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2dFGLm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d34a /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d34a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d34a.'
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-KLnQJ4'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-KLnQJ4]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d34a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d34a.dir/build.make CMakeFiles/cmTC_2d34a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-KLnQJ4']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d34a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccCowUMt.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCowUMt.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_2d34a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d34a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d34a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d34a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d34a.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2dFGLm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d34a /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2dFGLm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2d34a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_2d34a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test PCAP_LINKS_SOLO succeeded with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yaxjeN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98970/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98970.dir/build.make CMakeFiles/cmTC_98970.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yaxjeN'
+Building C object CMakeFiles/cmTC_98970.dir/src.c.o
+/usr/bin/cc -DPCAP_LINKS_SOLO  -Wall -Wno-unused  -o CMakeFiles/cmTC_98970.dir/src.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yaxjeN/src.c
+Linking C executable cmTC_98970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98970.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_98970.dir/src.c.o -o cmTC_98970  /usr/lib/x86_64-linux-gnu/libpcap.so 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yaxjeN'
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the function pcap_dump_open_append exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ed0whM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d6ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d6ff.dir/build.make CMakeFiles/cmTC_5d6ff.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ed0whM'
+Building C object CMakeFiles/cmTC_5d6ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=pcap_dump_open_append -o CMakeFiles/cmTC_5d6ff.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ed0whM/CheckFunctionExists.c
+Linking C executable cmTC_5d6ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d6ff.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=pcap_dump_open_append CMakeFiles/cmTC_5d6ff.dir/CheckFunctionExists.c.o -o cmTC_5d6ff  /usr/lib/x86_64-linux-gnu/libpcap.so 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ed0whM'
+
+
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-Pxq2Wx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77f6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77f6d.dir/build.make CMakeFiles/cmTC_77f6d.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-Pxq2Wx'
+Building C object CMakeFiles/cmTC_77f6d.dir/HAVE_GETOPT_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_77f6d.dir/HAVE_GETOPT_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-Pxq2Wx/HAVE_GETOPT_H.c
+Linking C executable cmTC_77f6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77f6d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_77f6d.dir/HAVE_GETOPT_H.c.o -o cmTC_77f6d 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-Pxq2Wx'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ObySKO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b3a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b3a0.dir/build.make CMakeFiles/cmTC_3b3a0.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ObySKO'
+Building C object CMakeFiles/cmTC_3b3a0.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_3b3a0.dir/HAVE_MEMORY_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ObySKO/HAVE_MEMORY_H.c
+Linking C executable cmTC_3b3a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b3a0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_3b3a0.dir/HAVE_MEMORY_H.c.o -o cmTC_3b3a0 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-ObySKO'
+
+
+
+Determining if files netinet/ether.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9WQqxp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc705/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc705.dir/build.make CMakeFiles/cmTC_cc705.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9WQqxp'
+Building C object CMakeFiles/cmTC_cc705.dir/HAVE_NETINET_ETHER_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_cc705.dir/HAVE_NETINET_ETHER_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9WQqxp/HAVE_NETINET_ETHER_H.c
+Linking C executable cmTC_cc705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc705.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_cc705.dir/HAVE_NETINET_ETHER_H.c.o -o cmTC_cc705 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9WQqxp'
+
+
+
+Determining if files sys/socket.h;netinet/in.h;net/if.h;netinet/if_ether.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xCXyKb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09d5c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09d5c.dir/build.make CMakeFiles/cmTC_09d5c.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xCXyKb'
+Building C object CMakeFiles/cmTC_09d5c.dir/HAVE_NETINET_IF_ETHER_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_09d5c.dir/HAVE_NETINET_IF_ETHER_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xCXyKb/HAVE_NETINET_IF_ETHER_H.c
+Linking C executable cmTC_09d5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d5c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_09d5c.dir/HAVE_NETINET_IF_ETHER_H.c.o -o cmTC_09d5c 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xCXyKb'
+
+
+
+Determining if files sys/socket.h;netinet/in.h;net/if.h;netinet/ip6.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-73TGvp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02afb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02afb.dir/build.make CMakeFiles/cmTC_02afb.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-73TGvp'
+Building C object CMakeFiles/cmTC_02afb.dir/HAVE_NETINET_IP6_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_02afb.dir/HAVE_NETINET_IP6_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-73TGvp/HAVE_NETINET_IP6_H.c
+Linking C executable cmTC_02afb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02afb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_02afb.dir/HAVE_NETINET_IP6_H.c.o -o cmTC_02afb 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-73TGvp'
+
+
+
+Determining if files sys/socket.h;net/if.h;net/ethernet.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-WxF1WN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11efd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11efd.dir/build.make CMakeFiles/cmTC_11efd.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-WxF1WN'
+Building C object CMakeFiles/cmTC_11efd.dir/HAVE_NET_ETHERNET_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_11efd.dir/HAVE_NET_ETHERNET_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-WxF1WN/HAVE_NET_ETHERNET_H.c
+Linking C executable cmTC_11efd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11efd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_11efd.dir/HAVE_NET_ETHERNET_H.c.o -o cmTC_11efd 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-WxF1WN'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9wbJZY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e116/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e116.dir/build.make CMakeFiles/cmTC_8e116.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9wbJZY'
+Building C object CMakeFiles/cmTC_8e116.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_8e116.dir/HAVE_SYS_TIME_H.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9wbJZY/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_8e116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e116.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_8e116.dir/HAVE_SYS_TIME_H.c.o -o cmTC_8e116 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-9wbJZY'
+
+
+
+Determining if files time.h;sys/time.h exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UaVVw6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79e80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79e80.dir/build.make CMakeFiles/cmTC_79e80.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UaVVw6'
+Building C object CMakeFiles/cmTC_79e80.dir/TIME_WITH_SYS_TIME.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_79e80.dir/TIME_WITH_SYS_TIME.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UaVVw6/TIME_WITH_SYS_TIME.c
+Linking C executable cmTC_79e80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e80.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_79e80.dir/TIME_WITH_SYS_TIME.c.o -o cmTC_79e80 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UaVVw6'
+
+
+
+Determining if the IPPROTO_HOPOPTS exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-guCBJr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a908b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a908b.dir/build.make CMakeFiles/cmTC_a908b.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-guCBJr'
+Building C object CMakeFiles/cmTC_a908b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_a908b.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-guCBJr/CheckSymbolExists.c
+Linking C executable cmTC_a908b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a908b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_a908b.dir/CheckSymbolExists.c.o -o cmTC_a908b 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-guCBJr'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_HOPOPTS
+  return ((int*)(&IPPROTO_HOPOPTS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_IPV6 exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-DT1BZi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1fe03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fe03.dir/build.make CMakeFiles/cmTC_1fe03.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-DT1BZi'
+Building C object CMakeFiles/cmTC_1fe03.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_1fe03.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-DT1BZi/CheckSymbolExists.c
+Linking C executable cmTC_1fe03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fe03.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_1fe03.dir/CheckSymbolExists.c.o -o cmTC_1fe03 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-DT1BZi'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_IPV6
+  return ((int*)(&IPPROTO_IPV6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_ROUTING exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-sjdBLv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_926c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_926c6.dir/build.make CMakeFiles/cmTC_926c6.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-sjdBLv'
+Building C object CMakeFiles/cmTC_926c6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_926c6.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-sjdBLv/CheckSymbolExists.c
+Linking C executable cmTC_926c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_926c6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_926c6.dir/CheckSymbolExists.c.o -o cmTC_926c6 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-sjdBLv'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_ROUTING
+  return ((int*)(&IPPROTO_ROUTING))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_FRAGMENT exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-C2sJc8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c8f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c8f6.dir/build.make CMakeFiles/cmTC_1c8f6.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-C2sJc8'
+Building C object CMakeFiles/cmTC_1c8f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_1c8f6.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-C2sJc8/CheckSymbolExists.c
+Linking C executable cmTC_1c8f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8f6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_1c8f6.dir/CheckSymbolExists.c.o -o cmTC_1c8f6 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-C2sJc8'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_FRAGMENT
+  return ((int*)(&IPPROTO_FRAGMENT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_ESP exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uzOwAv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1eefc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1eefc.dir/build.make CMakeFiles/cmTC_1eefc.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uzOwAv'
+Building C object CMakeFiles/cmTC_1eefc.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_1eefc.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uzOwAv/CheckSymbolExists.c
+Linking C executable cmTC_1eefc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eefc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_1eefc.dir/CheckSymbolExists.c.o -o cmTC_1eefc 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-uzOwAv'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_ESP
+  return ((int*)(&IPPROTO_ESP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_AH exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JUEmGk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4466b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4466b.dir/build.make CMakeFiles/cmTC_4466b.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JUEmGk'
+Building C object CMakeFiles/cmTC_4466b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_4466b.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JUEmGk/CheckSymbolExists.c
+Linking C executable cmTC_4466b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4466b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_4466b.dir/CheckSymbolExists.c.o -o cmTC_4466b 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JUEmGk'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_AH
+  return ((int*)(&IPPROTO_AH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_ICMPV6 exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-tJZgo2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10e16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10e16.dir/build.make CMakeFiles/cmTC_10e16.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-tJZgo2'
+Building C object CMakeFiles/cmTC_10e16.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_10e16.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-tJZgo2/CheckSymbolExists.c
+Linking C executable cmTC_10e16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10e16.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_10e16.dir/CheckSymbolExists.c.o -o cmTC_10e16 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-tJZgo2'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_ICMPV6
+  return ((int*)(&IPPROTO_ICMPV6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_NONE exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JzXwzL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04bc0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04bc0.dir/build.make CMakeFiles/cmTC_04bc0.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JzXwzL'
+Building C object CMakeFiles/cmTC_04bc0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_04bc0.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JzXwzL/CheckSymbolExists.c
+Linking C executable cmTC_04bc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bc0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_04bc0.dir/CheckSymbolExists.c.o -o cmTC_04bc0 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JzXwzL'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_NONE
+  return ((int*)(&IPPROTO_NONE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IPPROTO_DSTOPTS exist passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JIBPNv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74d10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74d10.dir/build.make CMakeFiles/cmTC_74d10.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JIBPNv'
+Building C object CMakeFiles/cmTC_74d10.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wno-unused  -o CMakeFiles/cmTC_74d10.dir/CheckSymbolExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JIBPNv/CheckSymbolExists.c
+Linking C executable cmTC_74d10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74d10.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_74d10.dir/CheckSymbolExists.c.o -o cmTC_74d10 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-JIBPNv'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPPROTO_DSTOPTS
+  return ((int*)(&IPPROTO_DSTOPTS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-TOOvUm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8e9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8e9f.dir/build.make CMakeFiles/cmTC_c8e9f.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-TOOvUm'
+Building C object CMakeFiles/cmTC_c8e9f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=getopt_long -o CMakeFiles/cmTC_c8e9f.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-TOOvUm/CheckFunctionExists.c
+Linking C executable cmTC_c8e9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8e9f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=getopt_long CMakeFiles/cmTC_c8e9f.dir/CheckFunctionExists.c.o -o cmTC_c8e9f 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-TOOvUm'
+
+
+
+Determining if the function mallinfo exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-rOH169
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de8e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de8e7.dir/build.make CMakeFiles/cmTC_de8e7.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-rOH169'
+Building C object CMakeFiles/cmTC_de8e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=mallinfo -o CMakeFiles/cmTC_de8e7.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-rOH169/CheckFunctionExists.c
+Linking C executable cmTC_de8e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de8e7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=mallinfo CMakeFiles/cmTC_de8e7.dir/CheckFunctionExists.c.o -o cmTC_de8e7 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-rOH169'
+
+
+
+Determining if the function mallinfo2 exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EupDSn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1597f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1597f.dir/build.make CMakeFiles/cmTC_1597f.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EupDSn'
+Building C object CMakeFiles/cmTC_1597f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=mallinfo2 -o CMakeFiles/cmTC_1597f.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EupDSn/CheckFunctionExists.c
+Linking C executable cmTC_1597f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1597f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=mallinfo2 CMakeFiles/cmTC_1597f.dir/CheckFunctionExists.c.o -o cmTC_1597f 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-EupDSn'
+
+
+
+Determining if the function strcasestr exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-GQOyyg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8de36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8de36.dir/build.make CMakeFiles/cmTC_8de36.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-GQOyyg'
+Building C object CMakeFiles/cmTC_8de36.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strcasestr -o CMakeFiles/cmTC_8de36.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-GQOyyg/CheckFunctionExists.c
+Linking C executable cmTC_8de36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8de36.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strcasestr CMakeFiles/cmTC_8de36.dir/CheckFunctionExists.c.o -o cmTC_8de36 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-GQOyyg'
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4scb5L
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7989c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7989c.dir/build.make CMakeFiles/cmTC_7989c.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4scb5L'
+Building C object CMakeFiles/cmTC_7989c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strerror -o CMakeFiles/cmTC_7989c.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4scb5L/CheckFunctionExists.c
+Linking C executable cmTC_7989c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7989c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strerror CMakeFiles/cmTC_7989c.dir/CheckFunctionExists.c.o -o cmTC_7989c 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-4scb5L'
+
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UTez7f
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35de8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35de8.dir/build.make CMakeFiles/cmTC_35de8.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UTez7f'
+Building C object CMakeFiles/cmTC_35de8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strsep -o CMakeFiles/cmTC_35de8.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UTez7f/CheckFunctionExists.c
+Linking C executable cmTC_35de8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35de8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=strsep CMakeFiles/cmTC_35de8.dir/CheckFunctionExists.c.o -o cmTC_35de8 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-UTez7f'
+
+
+
+Determining if the function sigset exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xdVBOD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bb92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bb92.dir/build.make CMakeFiles/cmTC_9bb92.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xdVBOD'
+Building C object CMakeFiles/cmTC_9bb92.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=sigset -o CMakeFiles/cmTC_9bb92.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xdVBOD/CheckFunctionExists.c
+Linking C executable cmTC_9bb92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb92.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=sigset CMakeFiles/cmTC_9bb92.dir/CheckFunctionExists.c.o -o cmTC_9bb92 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-xdVBOD'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yZ1r8i
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18809/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18809.dir/build.make CMakeFiles/cmTC_18809.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yZ1r8i'
+Building C object CMakeFiles/cmTC_18809.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=sigaction -o CMakeFiles/cmTC_18809.dir/CheckFunctionExists.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yZ1r8i/CheckFunctionExists.c
+Linking C executable cmTC_18809
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18809.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_18809.dir/CheckFunctionExists.c.o -o cmTC_18809 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-yZ1r8i'
+
+
+
+Performing C SOURCE FILE Test have_nameser_header succeeded with the following output:
+Change Dir: /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-aWgylB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6aa7c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6aa7c.dir/build.make CMakeFiles/cmTC_6aa7c.dir/build
+gmake[1]: Entering directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-aWgylB'
+Building C object CMakeFiles/cmTC_6aa7c.dir/src.c.o
+/usr/bin/cc -Dhave_nameser_header  -Wall -Wno-unused  -o CMakeFiles/cmTC_6aa7c.dir/src.c.o -c /home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-aWgylB/src.c
+Linking C executable cmTC_6aa7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa7c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wno-unused  CMakeFiles/cmTC_6aa7c.dir/src.c.o -o cmTC_6aa7c 
+gmake[1]: Leaving directory '/home/auxgrep/Desktop/network_malware/zeek-aux/build/CMakeFiles/CMakeScratch/TryCompile-aWgylB'
+
+
+Source file was:
+
+    #include <arpa/nameser.h>
+    int main() { HEADER *hdr; int d = NS_IN6ADDRSZ; return 0; }
+
